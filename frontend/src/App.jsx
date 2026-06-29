@@ -63,7 +63,7 @@ import {
   YAxis,
 } from 'recharts';
 
-const API = 'http://127.0.0.1:8000';
+const API = '';
 
 const providerStyles = {
   AWS: { stroke: '#f97316', fill: '#ffedd5', bar: 'bg-orange-500', badge: 'bg-orange-50 text-orange-700 ring-orange-200' },
