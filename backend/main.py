@@ -34,8 +34,9 @@ app = FastAPI(title="CodingGarage FinOps Postgres Engine API")
 
 @app.on_event("startup")
 def on_startup():
-    init_db()
-    start_scheduler()
+    print("Application starting...")
+    # init_db()
+    # start_scheduler()
 
 app.add_middleware(
     CORSMiddleware,
