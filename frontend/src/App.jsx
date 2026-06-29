@@ -63,7 +63,7 @@ import {
   YAxis,
 } from 'recharts';
 
-const API = '';
+const API = 'https://codingarage-zlqm.vercel.app';
 
 const providerStyles = {
   AWS: { stroke: '#f97316', fill: '#ffedd5', bar: 'bg-orange-500', badge: 'bg-orange-50 text-orange-700 ring-orange-200' },
